@@ -1,0 +1,128 @@
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+body{
+background-image: linear-gradient(0deg, #21D4FD 0%, #B721FF 100%);
+
+}
+
+.container{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form-container{
+  display: flex;
+  border:4px solid black;
+  width: 36rem;
+  height: 34rem;
+  justify-content: center;
+  flex-direction: column;
+}
+#showpass{
+   display: flex;
+   border: 3px solid black;
+  width: 30rem;
+  height:45px;
+  margin: auto auto 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.1rem;
+  background-image: linear-gradient( 109.6deg,  rgba(103,30,117,1) 11.2%, rgba(252,76,2,1) 91.1% );
+}
+
+
+
+#weakpass{
+  display: flex;
+  margin: auto auto 20px auto;
+   border: 3px solid black;
+    width: 30rem;
+    height: 68px;
+  text-align: center;
+  align-items: center;
+justify-content: center;
+  cursor:pointer;
+background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+  transition: width 1s, height 4s;
+}
+
+
+#superstrongpass{
+  display: flex;
+margin: auto auto 20px auto;
+    border: 3px solid black;
+      width: 30rem;
+    height: 68px;
+    text-align: center;
+  align-items: center;
+justify-content: center;
+  cursor:pointer;
+  background-color: #4158D0;
+background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  transition: width 1s, height 4s;
+}
+
+#strongpass{
+  display: flex;
+margin: auto auto 20px auto;
+    border: 3px solid black;
+      width: 30rem;
+    height: 68px;
+    text-align: center;
+  align-items: center;
+justify-content: center;
+  cursor:pointer;
+background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  transition: width 1s, height 4s;
+}
+
+
+
+#funnypass{
+  display: flex;
+margin: auto auto 20px auto;
+  border: 3px solid black;
+      width: 30rem;
+    height: 68px;
+    text-align: center;
+  align-items: center;
+justify-content: center;
+  cursor:pointer;
+  transition: width 1s, height 4s;
+background-image: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);
+}
+
+#weakpass:hover{
+    width: 35rem;
+    height: 69px;
+}
+#superstrongpass:hover{
+width: 35rem;
+    height: 73px;
+}
+#strongpass:hover{
+width: 35rem;
+    height: 73px;
+}
+#funnypass:hover{
+width: 35rem;
+    height: 73px;
+}
+
+#copy{
+ border:none;
+  display:flex;
+  margin-left: 27rem;
+  cursor: pointer;
+}
+
